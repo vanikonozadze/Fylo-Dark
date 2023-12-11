@@ -1,0 +1,304 @@
+.content-one {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content-one p {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.content-one button {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  padding: 10px 60px;
+  border: 1px solid hsl(176, 68%, 64%);
+  border-radius: 2rem;
+  background-color: hsl(176, 68%, 64%);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-bottom: 200px;
+}
+
+.content-one button:hover {
+  border: 1px solid hsl(176, 67%, 76%);
+  background-color: hsl(176, 75%, 75%);
+}
+
+.illustration-image {
+  width: 600px;
+  padding: 40px 0;
+}
+
+.content-two {
+  width: 1000px;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.item1 {
+  text-align: center;
+  width: 330px;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.item1 h3 {
+  padding: 20px 0 10px 0;
+}
+
+.item2 {
+  text-align: center;
+  width: 330px;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.item2 h3 {
+  padding: 20px 0 10px 0;
+}
+
+.item3 {
+  text-align: center;
+  width: 330px;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.item3 h3 {
+  padding: 20px 0 10px 0;
+}
+
+.item4 {
+  text-align: center;
+  width: 330px;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.item4 h3 {
+  padding: 20px 0 10px 0;
+}
+
+.content-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.content-three-text h1 {
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.content-three-text p {
+  padding: 10px 0;
+  width: 550px;
+}
+
+.blue-hr {
+  width: 180px;
+  border: none;
+  border-top: 2px solid #62e0d9;
+  margin-top: 5px;
+}
+
+.blue-p-text {
+  width: 150px;
+}
+
+.blue-container {
+  color: #62e0d9;
+  display: flex;
+  gap: 10px;
+}
+
+.blue-main:hover .blue-container {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blue-main:hover .blue-hr {
+  border-top-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blue-main:hover .blue-container .arrow-logo circle {
+  fill: #fff;
+  transition: 0.3s;
+}
+
+.content-four {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.quote-img-container {
+  position: absolute;
+  top: 115px;
+  left: 152px;
+  z-index: -1;
+}
+
+.content-four-div {
+  border-radius: 5px;
+  margin-top: 150px;
+  padding: 20px 0 0 20px;
+  background-color: hsl(218, 28%, 13%);
+  margin-bottom: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.content-four-div p {
+  width: 300px;
+}
+
+.content-four-div-text {
+  padding-top: 20px;
+}
+.profile-div img {
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile-div {
+  padding: 20px 0;
+  display: flex;
+}
+
+.profile-div div {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-one {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-one p {
+    width: 90%;
+  }
+
+  .illustration-image {
+    width: 90%;
+  }
+
+  .content-two {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item1 {
+    width: 90%;
+  }
+
+  .item2 {
+    width: 90%;
+  }
+
+  .item3 {
+    width: 90%;
+  }
+
+  .item4 {
+    width: 90%;
+  }
+
+  .content-three {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .content-three h2 {
+    font-size: 14px;
+  }
+
+  .content-three-text {
+    font-size: 12px;
+  }
+
+  .content-three-text h1 {
+    width: 90%;
+  }
+
+  .content-three-text p {
+    width: 90%;
+  }
+
+  .content-three img {
+    width: 90%;
+  }
+
+  .content-four {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .content-four-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .quote-img {
+    width: 50%;
+  }
+
+  .quote-img-container {
+    position: absolute;
+    top: -10px;
+    left: 8%;
+    z-index: -1;
+  }
+
+  .content-four-div {
+    width: 90%;
+  }
+
+  .content-four-div p {
+    width: 90%;
+  }
+}

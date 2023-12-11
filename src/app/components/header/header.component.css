@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.fylo-logo {
+  cursor: pointer;
+}
+
+.nav-items {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+}
+
+.nav-items li {
+  cursor: pointer;
+}
+
+.nav-items li:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 15px;
+  }
+
+  .nav-items {
+    gap: 0;
+  }
+
+  .nav-items li {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0 10px;
+  }
+
+  .fylo-logo {
+    width: 25%;
+    height: auto;
+  }
+}
